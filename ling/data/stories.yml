@@ -1,0 +1,41 @@
+version: "2.0"
+
+stories:
+
+- story: open_cx
+  steps:
+  - intent: common_greetings
+  - action: utter_greet
+  - intent: common_iAmOk
+  - action: utter_finekind
+  - action: utter_iamabot
+  - intent: ask_whatCanDo
+  - action: utter_icandothis
+
+- story: what can you do
+  steps:
+  - intent: ask_whatCanDo
+  - action: utter_icandothis
+  - intent: common_iAmOk
+  - action: utter_finekind
+  - action: utter_iamabot
+  - intent: ask_whatCanDo
+  - action: utter_icandothis
+
+- story: request appointment
+  steps:
+  - intent: req_takeAppoinment
+  - action: utter_friday11
+  - intent: common_assent
+  - action: utter_bot_confirm
+  - intent: common_goodbyes
+  - action: utter_goodbye
+
+- story: request re appointment
+  steps:
+  - intent: req_takeAppoinment
+  - action: utter_friday11
+  - intent: common_deny
+  - action: utter_oknextwk
+  - intent: common_assent
+  - action: utter_bot_confirm

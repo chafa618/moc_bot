@@ -1,0 +1,44 @@
+version: "2.0"
+
+intents:
+  - common_greetings
+  - common_goodbyes
+  - common_assent
+  - common_deny
+  - common_iAmOk
+  - ask_whatCanDo
+  - ask_whoAreYou
+  - req_takeAppoinment
+  - req_reTakeAppoinment
+
+responses:
+  utter_greet:
+  - text: "Hola, ¿cómo estás?"
+
+  utter_goodbye:
+  - text: "Chau! Espero verte pronto, hasta la proxima"
+ 
+  utter_ups:
+  - text: "Ups! creo que ya pasamos por esto ;)"
+
+  utter_iamabot:
+  - text: Soy un asistente virtual. Tal vez pueda ayudarte?
+
+  utter_icandothis:
+  - text: "Mi misión es entender la comunicación humana, fui hecho con esa finalidad.\nSin embargo, si querés saber más de mi, podría ayudarte a programar una cita con mi creador para que puedan charlar"
+
+  utter_friday11:
+  - text: "Sí, te parece bien el viernes a la 11:00 hs?"
+
+  utter_oknextwk:
+  - text: "Claro, no hay problema. La semana próxima en el mismo horario, está bien?"
+
+  utter_finekind:
+  - text: "¡Bien! Que amable."
+  
+  utter_bot_confirm:
+  - text: "Perfecto, queda confirmado. Muchas gracias"
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

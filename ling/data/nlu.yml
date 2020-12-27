@@ -1,0 +1,130 @@
+version: "2.0"
+
+nlu:
+- intent: common_greetings
+  examples: |
+    - hola
+    - ola
+    - Holas
+    - Buen día
+    - Buenas tardes
+    - Buenas noches
+    - ¿Qué tal?
+    - ¿Todo bien?
+    - ¿Cómo estás?
+    - ¿Qué onda?
+    - Hola, ¿cómo va?
+    - Hey! ¿todo bien?
+    - Holi
+
+- intent: common_goodbyes
+  examples: |
+    - Chau
+    - Bye
+    - Ok, hasta luego
+    - Nos vemos
+    - nos vemos, chau
+    - Adios
+    - Hasta la proxima
+    - Chauu
+    - Listo
+    - Salir
+    - Chau, hasta luego
+
+- intent: common_assent
+  examples: |
+    - ok
+    - si
+    - claro
+    - correcto
+    - está bien
+    - perfecto
+    - okey
+    - si si
+    - sí, eso creo
+    - me parece bien
+    - de acuerdo
+    - estoy de acuerdo
+    - eso mismo
+
+- intent: common_deny
+  examples: |
+    - no
+    - no, para nada
+    - nunca
+    - Me parece que no
+    - No lo creo
+    - De ninguna manera
+    - en realidad no
+    - no me parece
+    - no no
+    - no gracias
+    - no quiero
+    - no, te agradezco
+    - no me interesa
+    - ni en pedo
+    - ni loco
+
+- intent: common_iAmOk
+  examples: |
+    - Bien, gracias
+    - Estoy bien, y vos?
+    - Bien y vos?
+    - Bien vos?
+    - Todo bien y vos?
+    - Me encuentro bien gracias
+
+- intent: ask_whatCanDo
+  examples: |
+    - ¿Qué podés hacer?
+    - ¿QUé haces?
+    - ¿Qué haces vos?
+    - ¿Qué sabés hacer?
+    - ¿Sabés hacer algo?
+    - ¿Cómo me podés ayudar?
+    - Contame qué podés hacer
+    - A ver qué sabes?
+    - ¿Qué puedes hacer?
+    - ¿Sabés hacer alguna cosa?
+    - ¿Y vos qué podés hacer?
+    - ¿Vos qué hacés?
+    - ¿Podés hacer alguna tarea por mi?
+    - ¿Qué cosas te puedo pedir?
+    - ¿Cómo me ayudarías?
+
+- intent: ask_whoAreYou
+  examples: |
+    - ¿Quén sos?
+    - ¿Sos un robot?
+    - ¿Sos una persona?
+    - ¿Estoy hablando con un robot?
+    - ¿Sos una máquina?
+    - No sos real
+    - ¿Sos mujer?
+    - Quiero saber si sos una mujer
+    - ¿Sos un hombre?
+    - ¿Qué sos?
+
+- intent: req_takeAppoinment
+  examples: |
+    - programame una cita
+    - quiero programar un turno
+    - programar una reunion
+    - agendar una cita
+    - agendame por favor un turno
+    - podés darme una cita por favor?
+    - a ver, dame una cita
+    - entonces, programala
+
+- intent: req_reTakeAppoinment
+  examples: |
+    - ¿puede ser en otro momento?
+    - tenés para más tarde?
+    - no, ¿en otro horario?
+    - ¿puede ser más tarde?
+    - necesito que sea en otro momento
+    - otro día 
+    - ¿tenés otro día?
+    - ¿qué otro día está libre?
+    - ¿podrá ser otro día?
+    - tal vez en otro momento
