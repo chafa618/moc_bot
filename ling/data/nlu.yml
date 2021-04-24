@@ -46,6 +46,16 @@ nlu:
     - de acuerdo
     - estoy de acuerdo
     - eso mismo
+    - dale
+    - dale, si
+    - si dale
+    - dale, me gustaría
+    - ok, dale
+    - dale
+    - si, dale
+    - si, me gustaría
+    - si, quiero
+
 
 - intent: common_deny
   examples: |
@@ -64,6 +74,11 @@ nlu:
     - no me interesa
     - ni en pedo
     - ni loco
+    - no no quiero
+    - no gracias, no quiero
+    - no quiero, gracias
+    - no, está bien
+    - no te preocupes
 
 - intent: common_iAmOk
   examples: |
@@ -72,7 +87,14 @@ nlu:
     - Bien y vos?
     - Bien vos?
     - Todo bien y vos?
-    - Me encuentro bien gracias
+    - Me encuentro bien gracias,
+    - Bien, por suerte
+    - Todo piola
+    - Acá todo bien
+    - Bien muy bien
+    - genial, y vos?
+    - todo piola vos?
+    - piola
 
 - intent: ask_whatCanDo
   examples: |
@@ -91,6 +113,17 @@ nlu:
     - ¿Podés hacer alguna tarea por mi?
     - ¿Qué cosas te puedo pedir?
     - ¿Cómo me ayudarías?
+    - qué podés hacer? 
+    - a ver , que podes hacer?
+    - a ver mostrame qué podes hacer?
+    - qué puedo hacer
+    - a ver... qué puedo hacer?
+    - qué sabes hacer a ver?
+    - a ver que sabés hacer
+    - a ver que sabés hacer vos?
+    - que más sabés o podes hacer?
+    - a qué te dedicas?
+    
 
 - intent: ask_whoAreYou
   examples: |
@@ -115,6 +148,14 @@ nlu:
     - podés darme una cita por favor?
     - a ver, dame una cita
     - entonces, programala
+    - quiero programar un turno
+    - programar turno
+    - programa el turno
+    - agendar un turno
+    - por favor, agendar un turno
+    - quiero que me agendes el turno
+    - si quiero programar turno
+    - si, me gustaría programar un turno
 
 - intent: req_reTakeAppoinment
   examples: |
@@ -128,3 +169,20 @@ nlu:
     - ¿qué otro día está libre?
     - ¿podrá ser otro día?
     - tal vez en otro momento
+
+- intent: common_thankyous
+  examples: |
+    - gracias
+    - buenisimo, gracias
+    - uhh gracias
+    - fenómeno, gracias
+    - gracias, gracoas
+    - gracias, espectacular
+    - perfecto, gracias
+    - muchas gracias
+    - muchisimas gracias
+    - bien ahi, muchas gracias
+    - muchas, muchas, gracias
+    - gracias Botsana
+    - graciela
+    - genial gracias

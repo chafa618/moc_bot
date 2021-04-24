@@ -9,18 +9,23 @@ stories:
   - intent: common_iAmOk
   - action: utter_finekind
   - action: utter_iamabot
-  - intent: ask_whatCanDo
-  - action: utter_icandothis
 
-- story: what can you do
+- story: what can you do confirm
   steps:
   - intent: ask_whatCanDo
   - action: utter_icandothis
-  - intent: common_iAmOk
-  - action: utter_finekind
-  - action: utter_iamabot
+  - or:
+    - intent: common_assent
+    - intent: req_takeAppoinment
+  - action: utter_friday11
+
+- story: what can you do - deny
+  steps:
   - intent: ask_whatCanDo
   - action: utter_icandothis
+  - intent: common_deny
+  - action: utter_appologies_bot_cant_resolved
+  - action: utter_bot_will_learn_let_stay_in_touch
 
 - story: request appointment
   steps:

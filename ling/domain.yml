@@ -16,16 +16,19 @@ responses:
   - text: "Hola, ¿cómo estás?"
 
   utter_goodbye:
-  - text: "Chau! Espero verte pronto, hasta la proxima"
+  - text: "Espero verte pronto. Hasta la próxima"
  
-  utter_ups:
+  utter_ups_you_did_it_again:
   - text: "Ups! creo que ya pasamos por esto ;)"
 
   utter_iamabot:
-  - text: Soy un asistente virtual. Tal vez pueda ayudarte?
+  - text: "Soy Botsanna, un asistente virtual.\nPreguntame qué puedo hacer, para seguir ayudándote."
 
   utter_icandothis:
-  - text: "Mi misión es entender la comunicación humana, fui hecho con esa finalidad.\nSin embargo, si querés saber más de mi, podría ayudarte a programar una cita con mi creador para que puedan charlar"
+  - text: "Por el momento, solo puedo ayudarte con \n\t **Programar un turno** \\n"
+
+  utter_bot_will_learn_let_stay_in_touch:
+  - text: "Me gustaría saber más cosas. Hablemos en unos días y seguramente podré ayudarte a resolver más consultas. Estoy aprendiendo constantemente"
 
   utter_friday11:
   - text: "Sí, te parece bien el viernes a la 11:00 hs?"
@@ -35,9 +38,15 @@ responses:
 
   utter_finekind:
   - text: "¡Bien! Que amable."
+
+  utter_pleasure_for_help:
+  - text: "Estoy para ayudarte en lo que necesites"
   
   utter_bot_confirm:
   - text: "Perfecto, queda confirmado. Muchas gracias"
+
+  utter_appologies_bot_cant_resolved:
+  - text: ":( \n Lamento no ser de ayuda esta vez."
 
 session_config:
   session_expiration_time: 60
