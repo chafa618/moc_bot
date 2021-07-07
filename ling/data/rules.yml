@@ -1,2 +1,14 @@
 version: "2.0"
 
+rules:
+
+- rule: Say `bye` whenever the user sends a message with intent `goodbye`
+  steps:
+  - intent: common_goodbyes
+  - action: utter_goodbye
+
+- rule: Say "Soy Botsanna" once 
+  steps:
+  - intent: ask_whoAreYou
+  - action: utter_iamabot
+
